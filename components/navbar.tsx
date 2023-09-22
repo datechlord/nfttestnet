@@ -25,6 +25,11 @@ export default function Navbar() {
                 <p className={styles.navbarLogo}>NFT Course</p>
             </Link>
             <div className={styles.navbarLinks}>
+            <Link
+                    href={"/erc20"}
+                >
+                    <p>ERC20</p>
+                </Link>
                 <Link
                     href={"/erc1155"}
                 >
